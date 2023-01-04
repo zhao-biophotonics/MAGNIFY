@@ -1,7 +1,8 @@
 This is the code for generating Magnify-SOFI images. 
 
 The code needs Needs Bio-formats to run. Download and install here: https://www.openmicroscopy.org/bio-formats/downloads/
+The code also needs MicroscPSF.m  from https://github.com/MicroscPSF/MicroscPSF-Matlab.
 
-Auxillary functions in the /funcs folder are also needed to run the code. 
+Helper functions in the /funcs folder are also needed to run the code. 
 
 SOFI_batch works with .nd2 data and outputs 2ed and 3rd order SOFI images for 2D and 3D data as tif stacks. 
